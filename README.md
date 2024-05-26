@@ -16,11 +16,6 @@ A tilemap rendering plugin for [`bevy`](https://bevyengine.org/). It is more ECS
 - Isometric and Hexagonal tile maps.
 - Examples for integration with [Tiled](https://www.mapeditor.org/) and [LDTK](https://ldtk.io/) editors.
 
-## Screenshots
-
-![iso](screenshots/iso.png)
-![hex](screenshots/hex.png)
-
 ### How Does This Work?
 
 Quite simple there is a tile per entity. Behind the scenes the tiles are split into chunks that each have their own mesh which is sent to the GPU in an optimal way.
